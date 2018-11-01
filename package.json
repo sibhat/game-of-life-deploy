@@ -20,7 +20,7 @@
 	"eslintConfig": {
 		"extends": "react-app"
 	},
-	"homepage": "https://github.com/sibhat/Conways-Life.git",
+	"homepage": "https://github.com/sibhat/game-of-life-deploy.git",
 	"browserslist": [
 		">0.2%",
 		"not dead",
