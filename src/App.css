@@ -15,6 +15,7 @@
 	background-color: #28292b;
 	padding: 20px;
 	box-sizing: border-box;
+	box-shadow: inset 1px 0px 0px 12px rgba(154, 154, 154, 0.29);
 }
 .option {
 	width: 400px;
@@ -22,13 +23,14 @@
 	box-sizing: border-box;
 }
 .Presets {
-	padding: 10px;
+	padding: 14px;
 	width: 200px;
 	background-color: #28292b;
 	text-align: center;
-	border-radius: 10px;
+	border-radius: 2px;
 	float: right;
 	cursor: pointer;
+	box-shadow: inset 1px 0px 0px 4px rgba(154, 154, 154, 0.29);
 }
 .Presets:not(:first-child) {
 	margin-top: 20px;
