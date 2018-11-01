@@ -1,0 +1,66 @@
+.btn,
+.btn:focus {
+	display: inline;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	font-size: 14px;
+	cursor: pointer;
+	background-color: transparent;
+	box-sizing: border-box;
+}
+.preset {
+	background-color: #303133;
+	padding: 5px;
+	width: 80%;
+	margin: 10px auto;
+	border: 1px solid #292935;
+	color: white;
+	font-size: 14px;
+}
+
+.cell {
+	width: 40px;
+	height: 40px;
+	border: 1px solid black;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.cell:hover {
+	background-color: bisque;
+}
+.cell.on {
+	background-image: url("./svg/jack-o-lantern-silhouette-12.png");
+	background-size: cover;
+	background-color: azure;
+}
+.cell.off {
+	background-color: azure;
+}
+svg path,
+svg image {
+	color: white;
+	fill: #efefef;
+	background-color: transparent;
+}
+.cls-1 {
+	fill: #efefef;
+	stroke: #fff;
+	fill-rule: evenodd;
+}
+ul {
+	display: block;
+	margin: auto;
+	text-align: start;
+}
+ul li {
+	list-style: circle;
+	margin: 10px 0;
+}
+.disable {
+	cursor: not-allowed;
+}
+.landing {
+	fill: #464646;
+	fill-rule: evenodd;
+}
