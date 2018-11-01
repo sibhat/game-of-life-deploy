@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sibhat/game-of-life-deploy.git/precache-manifest.197566d75e5f1dd86ee09f69a688d93d.js"
+  "/game-of-life-deploy/precache-manifest.1c346dc305cd6d58563953688451de68.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/sibhat/game-of-life-deploy.git/index.html", {
+workbox.routing.registerNavigationRoute("/game-of-life-deploy/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

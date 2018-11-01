@@ -1,14 +1,14 @@
 {
-  "main.css": "/sibhat/game-of-life-deploy.git/static/css/main.a3465a8e.chunk.css",
-  "main.js": "/sibhat/game-of-life-deploy.git/static/js/main.e284af59.chunk.js",
-  "main.js.map": "/sibhat/game-of-life-deploy.git/static/js/main.e284af59.chunk.js.map",
-  "static/js/1.04ee7cd9.chunk.js": "/sibhat/game-of-life-deploy.git/static/js/1.04ee7cd9.chunk.js",
-  "static/js/1.04ee7cd9.chunk.js.map": "/sibhat/game-of-life-deploy.git/static/js/1.04ee7cd9.chunk.js.map",
-  "runtime~main.js": "/sibhat/game-of-life-deploy.git/static/js/runtime~main.a1526c3e.js",
-  "runtime~main.js.map": "/sibhat/game-of-life-deploy.git/static/js/runtime~main.a1526c3e.js.map",
-  "static/media/main.css": "/sibhat/game-of-life-deploy.git/static/media/jack-o-lantern-silhouette-12.0f72454a.png",
-  "static/css/main.a3465a8e.chunk.css.map": "/sibhat/game-of-life-deploy.git/static/css/main.a3465a8e.chunk.css.map",
-  "index.html": "/sibhat/game-of-life-deploy.git/index.html",
-  "precache-manifest.197566d75e5f1dd86ee09f69a688d93d.js": "/sibhat/game-of-life-deploy.git/precache-manifest.197566d75e5f1dd86ee09f69a688d93d.js",
-  "service-worker.js": "/sibhat/game-of-life-deploy.git/service-worker.js"
+  "main.css": "/game-of-life-deploy/static/css/main.9e40dd28.chunk.css",
+  "main.js": "/game-of-life-deploy/static/js/main.9f6699a3.chunk.js",
+  "main.js.map": "/game-of-life-deploy/static/js/main.9f6699a3.chunk.js.map",
+  "static/js/1.04ee7cd9.chunk.js": "/game-of-life-deploy/static/js/1.04ee7cd9.chunk.js",
+  "static/js/1.04ee7cd9.chunk.js.map": "/game-of-life-deploy/static/js/1.04ee7cd9.chunk.js.map",
+  "runtime~main.js": "/game-of-life-deploy/static/js/runtime~main.8378d0a7.js",
+  "runtime~main.js.map": "/game-of-life-deploy/static/js/runtime~main.8378d0a7.js.map",
+  "static/media/main.css": "/game-of-life-deploy/static/media/jack-o-lantern-silhouette-12.0f72454a.png",
+  "static/css/main.9e40dd28.chunk.css.map": "/game-of-life-deploy/static/css/main.9e40dd28.chunk.css.map",
+  "index.html": "/game-of-life-deploy/index.html",
+  "precache-manifest.1c346dc305cd6d58563953688451de68.js": "/game-of-life-deploy/precache-manifest.1c346dc305cd6d58563953688451de68.js",
+  "service-worker.js": "/game-of-life-deploy/service-worker.js"
 }
