@@ -1,7 +1,7 @@
 {
   "main.css": "/game-of-life-deploy/static/css/main.959ef175.chunk.css",
-  "main.js": "/game-of-life-deploy/static/js/main.26377dd4.chunk.js",
-  "main.js.map": "/game-of-life-deploy/static/js/main.26377dd4.chunk.js.map",
+  "main.js": "/game-of-life-deploy/static/js/main.5ab0d95c.chunk.js",
+  "main.js.map": "/game-of-life-deploy/static/js/main.5ab0d95c.chunk.js.map",
   "static/js/1.04ee7cd9.chunk.js": "/game-of-life-deploy/static/js/1.04ee7cd9.chunk.js",
   "static/js/1.04ee7cd9.chunk.js.map": "/game-of-life-deploy/static/js/1.04ee7cd9.chunk.js.map",
   "runtime~main.js": "/game-of-life-deploy/static/js/runtime~main.8378d0a7.js",
@@ -9,6 +9,6 @@
   "static/media/main.css": "/game-of-life-deploy/static/media/jack-o-lantern-silhouette-12.0f72454a.png",
   "static/css/main.959ef175.chunk.css.map": "/game-of-life-deploy/static/css/main.959ef175.chunk.css.map",
   "index.html": "/game-of-life-deploy/index.html",
-  "precache-manifest.0eb60ffbbff5915a0bc0042da665d4da.js": "/game-of-life-deploy/precache-manifest.0eb60ffbbff5915a0bc0042da665d4da.js",
+  "precache-manifest.cd6d866b53f03b98793f0c1a67b97eac.js": "/game-of-life-deploy/precache-manifest.cd6d866b53f03b98793f0c1a67b97eac.js",
   "service-worker.js": "/game-of-life-deploy/service-worker.js"
 }
