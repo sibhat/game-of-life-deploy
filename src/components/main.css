@@ -61,6 +61,7 @@ ul li {
 }
 .disable {
 	cursor: not-allowed;
+	fill: #464646;
 }
 .landing {
 	fill: #464646;
