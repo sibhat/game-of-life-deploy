@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/sibhat/game-of-life-deploy.git/static/css/main.a3465a8e.chunk.css"
   },
   {
-    "revision": "10cd93bbd7201d94668df8748235d8f1",
+    "revision": "5c0812ac0d974df26bf23ec8b581fb59",
     "url": "/sibhat/game-of-life-deploy.git/index.html"
   }
 ];
