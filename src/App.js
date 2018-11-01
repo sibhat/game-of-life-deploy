@@ -219,7 +219,7 @@ class App extends Component {
 							<Button onclick={this.stopGame} stop />
 							<div>
 								<label htmlFor="range">
-									Speed: {this.state.range}
+									Speed: {this.state.range}X
 								</label>
 								<input
 									type="range"
