@@ -4,6 +4,7 @@ import Button from "./components/Button";
 import "./App.css";
 import Presets from "./components/Presets";
 import Rules from "./components/Rules";
+import History from "./components/History";
 import Landing from "./components/svg/Landing";
 import anime from "animejs";
 
@@ -19,6 +20,7 @@ class App extends Component {
 		seeded: false,
 		showPreset: false,
 		showRuls: false,
+		showHistory: false,
 		playing: false,
 		landingPage: true
 	};
@@ -129,6 +131,11 @@ class App extends Component {
 		buffer[row][col] = !buffer[row][col];
 		this.setState({ cellArry: buffer, seeded: true });
 	};
+	handleHistory = e => {
+		this.setState({
+			showHistory: !this.state.showHistory
+		});
+	};
 	componentWillUnmount() {
 		// Stop animating
 		this.continueAnimation = false;
@@ -231,9 +238,12 @@ class App extends Component {
 							handlePresets={this.handlePresets}
 						/>
 						<Rules
-							seed={this.seed}
 							showPreset={this.state.showRuls}
 							handlePresets={this.handleRules}
+						/>
+						<History
+							showHistory={this.state.showHistory}
+							handleHistory={this.handleHistory}
 						/>
 					</div>
 				</div>
