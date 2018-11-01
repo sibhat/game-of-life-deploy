@@ -104,9 +104,9 @@ class App extends Component {
 				buffer.forEach((row, i) => {
 					row.forEach((cell, x) => {
 						let count = this.count(buffer, i, x);
-						if (buffer[i][x] && count === 2) {
+						if (count === 2) {
 							buffer[i][x] = true; //stasis
-						} else if (count === 3) {
+						} else if (!buffer[i][x] && count === 3) {
 							buffer[i][x] = true; //birth
 						} else if (count > 3 || count < 2) {
 							buffer[i][x] = false; //die
