@@ -11,8 +11,9 @@ import anime from "animejs";
 class App extends Component {
 	state = {
 		generation: 0,
-		row: 10,
-		col: 10,
+		cellSize: 30,
+		row: 15,
+		col: 30,
 		cellArry: [],
 		continueAnimation: false,
 		range: 1,
@@ -193,6 +194,32 @@ class App extends Component {
 			});
 		});
 	};
+	handleCellChange = e => {
+		this.setState(
+			{
+				[e.target.name]: Number(e.target.value)
+			},
+			() => {
+				this.setState(
+					(prevState, prevProps) => {
+						console.log("prevState", prevState);
+						console.log("prevProps", prevProps);
+						return {
+							cellArry: new Array(prevState.row)
+								.fill()
+								.map(item =>
+									new Array(prevState.col).fill(false)
+								)
+						};
+					},
+					() => {
+						this.seed();
+						requestAnimationFrame(time => this.game(time));
+					}
+				);
+			}
+		);
+	};
 	render() {
 		return (
 			<div className="App">
@@ -203,6 +230,7 @@ class App extends Component {
 				<div className="main">
 					<div className="grid">
 						<Canvas
+							cellSize={this.state.cellSize}
 							cells={this.state.cellArry}
 							row={this.state.row}
 							col={this.state.col}
@@ -229,6 +257,35 @@ class App extends Component {
 									value={this.state.range}
 									onChange={this.handleChange}
 								/>
+								<div className="cell__info">
+									<label htmlFor="range">
+										col : {this.state.col}
+									</label>
+									<input
+										type="number"
+										name="col"
+										value={this.state.col}
+										onChange={this.handleCellChange}
+									/>
+									<label htmlFor="range">
+										row : {this.state.row}
+									</label>
+									<input
+										type="number"
+										name="row"
+										value={this.state.row}
+										onChange={this.handleCellChange}
+									/>
+									<label htmlFor="range">
+										cell Size : {this.state.cellSize}
+									</label>
+									<input
+										type="number"
+										name="cellSize"
+										value={this.state.cellSize}
+										onChange={this.handleCellChange}
+									/>
+								</div>
 							</div>
 						</div>
 					</div>

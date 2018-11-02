@@ -10,6 +10,10 @@ class Cell extends Component {
 			<div
 				onClick={e => this.props.onclick(row, col)}
 				className={className}
+				style={{
+					width: this.props.size || 20,
+					height: this.props.size || 20
+				}}
 			>
 				{""}
 			</div>

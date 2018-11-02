@@ -16,6 +16,7 @@ class Canvas extends Component {
 						cell={cell}
 						row={i}
 						col={x}
+						size={this.props.cellSize}
 					/>
 				);
 			})
@@ -25,7 +26,7 @@ class Canvas extends Component {
 				<h1>Generation {this.props.generation}</h1>
 				<div
 					style={{
-						width: "400px",
+						width: this.props.col * this.props.cellSize,
 						margin: "auto"
 					}}
 				>
